@@ -12,6 +12,9 @@ Explanation: Other variables are controlled and isolated. Howwever, in fact, the
 The many variables that affect the user count of bike sharing system might lead to a better model using multiple linear regression. Experiments on this dataset will continue to be done. 
 
 
+***Update: Note that the relationship between certain features and labels are not apparent and might not even show relation with regards to each other, but this is merely a practice for me to test out my knowledge on linear regression.
+
+
 **********************************************
 Dataset is provided by:
 
