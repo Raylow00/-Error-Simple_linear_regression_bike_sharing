@@ -1,5 +1,5 @@
 # linear_regression_bike_sharing
-This is my first self-learnt machine learning algorithm where I use the simple linear regression method to estimate the user count for bike sharing based on certain features. However, the algorithm is not perfect as the feature selected is for simple linear regression and does not produce the intended output. Nonetheless, this is my first trial in machine learning
+This is my first self-learnt machine learning algorithm where I use the simple linear regression method to estimate the user count for bike sharing based on the normalized temperatures. However, the algorithm is not perfect as the feature selected does not show a strong relationship with the label. Nonetheless, this is my first trial in machine learning.
 
 **********************************************
 Outcome of project:
@@ -7,7 +7,9 @@ The dataset proposed here is the dataset for bike sharing systems in a specific 
 
 
 R-2 score: -0.76
-Explanation: Other variables are controlled and isolated. Howwever, in fact, they are crucial in determining the output accurately.
+Explanation: 
+- Other variables are controlled and isolated. Howwever, in fact, they are crucial in determining the output accurately.
+- The feature ( normalized temperature ) does not show linear or direct relationship with the label, and a linear model might not be the best to display the relationship.
 
 The many variables that affect the user count of bike sharing system might lead to a better model using multiple linear regression. Experiments on this dataset will continue to be done. 
 
